@@ -16,7 +16,7 @@ python -m ensurepip --upgrade
 python -m pip install --upgrade pip
 ls
 pip list
-pip install -r requirements.txt --no-cache
+pip install -r requirements.txt --no-cache-dir
 echo 'Packages installed'
 pip list
 code .
